@@ -3,7 +3,6 @@ header{
       }
       .navbar {
             display: flex;
-            position: sticky;
             align-items: center;
             align-self:center;
             justify-content: space-between;
