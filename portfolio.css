@@ -8,7 +8,7 @@ header{
             align-self:center;
             justify-content: space-between;
             top: 0px;
-            background: rgb(178 172 136);
+            background: #77b372;
             background-blend-mode: darken;
             background-size: cover;
             color: white;
@@ -36,7 +36,7 @@ header{
             transition: color 0.3s ease-in-out;
         }
 
-        .nav-list li a:hover {
-            color: #ffd700;
+        .nav-list li:hover {
+            color: #4e754b;
             /* Change the color on hover */
         }
