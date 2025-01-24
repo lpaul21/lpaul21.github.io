@@ -1,43 +1,46 @@
 header{
       font-size: 2.5em;
       align-self: center;
-      }
-      .navbar {
-            display: flex;
-            align-items: center;
-            align-self:center;
-            justify-content: space-between;
-            top: 0px;
-            background: #77b372;
-            background-blend-mode: darken;
-            background-size: cover;
-            color: white;
-            padding: 10px 20px;
-        }
-      .nav-list {
-            display: flex;
-            list-style: none;
-            align-items: center;
-        }
+}
+body {
+      width: 100%;
+}
+.navbar {
+      display: flex;
+      align-items: center;
+      align-self:center;
+      justify-content: space-between;
+      top: 0px;
+      background: #77b372;
+      background-blend-mode: darken;
+      background-size: cover;
+      color: white;
+      padding: 10px 20px;
+}
+.nav-list {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+}
+.nav-list li {
+      margin-right: 20px;
+      padding: 8px;
+      border-radius: 20px;
+      border-width: 2px;
+      border-color: #bfbfbf;
+      background: white;
+}
+.nav-list li:last-child {
+      margin-right: 0;
+}
+.nav-list li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      transition: color 0.3s ease-in-out;
+ }
 
-        .nav-list li {
-            margin-right: 20px;
-            padding: 5px;
-            border-radius: 20px;
-            background: white;
-        }
-
-        .nav-list li:last-child {
-            margin-right: 0;
-        }
-      .nav-list li a {
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            transition: color 0.3s ease-in-out;
-        }
-
-        .nav-list li:hover {
-            color: #4e754b;
-            /* Change the color on hover */
-        }
+.nav-list li:hover {
+   background: #bfbfbf;
+    /* Change the color on hover */
+}
