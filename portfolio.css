@@ -1,8 +1,9 @@
 header{
       display: flex;
-      font-size: 2.5em;
+      font-size: 1.5em;
       align-items: center;
       justify-content: center;
+      margin: 10px;
 }
 body {
       width: 100%;
