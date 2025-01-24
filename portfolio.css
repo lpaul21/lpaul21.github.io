@@ -5,11 +5,12 @@ header{
 body {
       width: 100%;
       background: #77b372;
-      align-items: center;
 }
 .content {
       width: 80%;
       background: #fff;
+      padding: 10px;
+      margin: auto;
 }
 .navbar {
       display: flex;
@@ -26,7 +27,7 @@ body {
 .nav-list {
       display: flex;
       list-style: none;
-      justify-content: center;
+      margin: auto;
 }
 .nav-list li {
       margin-right: 20px;
