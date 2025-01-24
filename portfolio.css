@@ -2,7 +2,7 @@ header{
       display: flex;
       font-size: 2.5em;
       align-items: center;
-      justify-content: left;
+      justify-content: center;
 }
 body {
       width: 100%;
@@ -13,7 +13,7 @@ main {
 }
 #profile {
       border-radius: 20px;
-      border-width: 3px;
+      border-width: 6px;
       border-color: #bfbfbf;
       margin-right: 30px;
 }
