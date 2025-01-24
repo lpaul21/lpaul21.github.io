@@ -4,6 +4,12 @@ header{
 }
 body {
       width: 100%;
+      background: #77b372;
+      align-items: center;
+}
+.content {
+      width: 80%;
+      background: #fff;
 }
 .navbar {
       display: flex;
