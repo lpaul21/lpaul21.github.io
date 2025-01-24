@@ -1,10 +1,18 @@
 header{
+      display: flex;
       font-size: 2.5em;
-      align-self: center;
+      align-items: center;
+      justify-content: left;
 }
 body {
       width: 100%;
       background: #77b372;
+}
+#profile {
+      border-radius: 20px;
+      border-width: 3px;
+      border-color: #bfbfbf;
+      margin-right: 30px;
 }
 .content {
       width: 80%;
