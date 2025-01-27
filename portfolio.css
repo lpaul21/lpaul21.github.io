@@ -27,6 +27,7 @@ main {
 }
 .center {
       margin: auto;
+      justify-content: center;
 }
 .content {
       background: #fff;
