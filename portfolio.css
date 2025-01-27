@@ -20,6 +20,11 @@ main {
       border-color: #bfbfbf;
       margin-right: 30px;
 }
+#inline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
 .content {
       background: #fff;
       padding: 10px;
