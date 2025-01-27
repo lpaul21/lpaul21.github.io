@@ -25,6 +25,9 @@ main {
       align-items: center;
       justify-content: space-between;
 }
+.center {
+      margin: auto;
+}
 .content {
       background: #fff;
       padding: 10px;
