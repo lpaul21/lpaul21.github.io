@@ -28,6 +28,7 @@ main {
 .center {
       margin: auto;
       justify-content: center;
+      text-align: center;
 }
 .content {
       background: #fff;
